@@ -41,7 +41,7 @@ def guess_password(passwdlen):
         for guess in itertools.cycle(chars):#, repeat=password_length):
                  guess = passwd + ''.join(guess)
          
-                 print('firstBF: '+ guess)
+                 print('Brute Force: '+ guess)
             
                  if inject(x,guess) == passwdlen:
                      passwd = guess + ''
